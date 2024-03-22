@@ -73,6 +73,26 @@ input, select, textarea {
 	appearance: none;
 }
 
+.nav {
+	text-align: center;
+	color: #ffffff;
+	text-decoration: none;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 2rem;
+	position: sticky;
+	top: 0;
+}
+.nav a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+section {
+	margin-top: 3rem;
+	padding-top: 2rem;
+}
+
 /* Basic */
 
 	@-ms-viewport {
