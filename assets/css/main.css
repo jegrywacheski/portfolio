@@ -78,7 +78,9 @@ input, select, textarea {
 	color: #ffffff;
 	text-decoration: none;
 	display: flex;
-	justify-content: space-between;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 1rem;
 	margin-bottom: 2rem;
 	position: sticky;
 	top: 0;
